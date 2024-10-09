@@ -2,7 +2,7 @@
 
 #Adapted from https://www.macinchem.org/reviews/clustering/clustering.php 
 
-#Here, we are generating Morgan fingerprints and clustering them. Then, the fingerprint leaders(centroids) are extracted by teir indices from the original sdf file
+#Here, we are generating Morgan fingerprints and clustering them. Then, the fingerprint leaders(centroids) are extracted by their indices from the original sdf file
 
 from rdkit import Chem
 from rdkit.Chem import AllChem
